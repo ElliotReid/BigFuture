@@ -14,4 +14,13 @@ Then  the user should able to see following columns
   
   #deneme 12312312
   #denem_merve
-  Cihat fork
+
+
+  # once fork
+  #kendi repository'ne al
+  #editle
+  #public yaymak icin pull request ac -yetki varsa merge yapiyor zaten-
+
+
+  #clone farki
+  # ??
