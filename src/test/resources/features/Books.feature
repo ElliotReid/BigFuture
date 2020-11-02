@@ -14,8 +14,4 @@ Then  the user should able to see following columns
   
   #deneme 12312312
   #denem_merve
-
-  #denemetuba
-
-
-
+  Cihat fork
