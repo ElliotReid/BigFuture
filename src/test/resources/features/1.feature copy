@@ -1,0 +1,22 @@
+Feature: 
+
+	#{color:#000000}AC: 1. verify both Students and librarians login
+	#
+	#When user login as a <role>
+	#Then user on <page>
+	#| role | page |
+	#| student11 | books. | 
+	#| librarian13 | Dashboard |
+	#{color}
+	@EUG5-166
+	Scenario Outline: User Login Functionality
+		"User  login functionality"
+		
+		         When user login as a <role>
+		         Then user on  <page>
+		         
+		         Examples:
+		         | role             | page           |
+		         | student11   |  books.        |  
+		         | librarian13  | Dashboard  |
+		
