@@ -6,7 +6,7 @@ Feature: Login Functionality
 
     Examples:
       | role        | page      |
-      | student11   | books    |
+      | student11   | books     |
       | librarian13 | Dashboard |
 
 		
