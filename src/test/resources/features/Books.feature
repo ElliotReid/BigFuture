@@ -12,7 +12,4 @@ Then  the user should able to see following columns
 | Borrowed By |
 
   
-  #deneme 12312312
-  #denem_merve
-  #Cihat fork
-  #esat
+#Trila
