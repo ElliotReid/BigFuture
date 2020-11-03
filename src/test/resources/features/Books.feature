@@ -1,7 +1,7 @@
 Feature: Books Module features
 
-Scenario: student should able to see following columns
-Given the user logged in as a Student
+Scenario: student should able to see following columns`
+Given the user is logged in as "Student"
 Then  the user should able to see following columns
 | Actions     |
 | ISBN        |
@@ -11,4 +11,3 @@ Then  the user should able to see following columns
 | Year        |
 | Borrowed By |
 
-#Son cihatBrunch

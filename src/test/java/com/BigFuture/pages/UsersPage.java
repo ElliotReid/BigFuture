@@ -1,4 +1,4 @@
 package com.BigFuture.pages;
 
-public class UsersPage {
+public class UsersPage extends BasePage {
 }
