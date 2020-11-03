@@ -1,10 +1,4 @@
-Feature: 
 
-	#AC:
-	#
-	#1. add users with all valid info. 
-	# 2. Librarians able to close the add user window with "close" button
-	# 3. Librarians able to edit user info.
 	@EUG5-167
 	Scenario: Librarian create user
 		Feature : Add user features
