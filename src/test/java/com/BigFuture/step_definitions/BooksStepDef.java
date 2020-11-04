@@ -35,8 +35,6 @@ public class BooksStepDef {
         BrowserUtils.waitForVisibility(booksPage.showRecords,5);
         Select select = new Select(booksPage.showRecords);
         List<String>list = BrowserUtils.getElementsText(select.getOptions());
-        for (String s : list) {
-            System.out.println(s);
-        }
+        Assert.assertTrue(list.contains(option));
     }
 }
