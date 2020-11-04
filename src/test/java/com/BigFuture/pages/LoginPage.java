@@ -6,7 +6,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
 public class LoginPage {
+
 
     public LoginPage(){
         PageFactory.initElements(Driver.get(), this);
@@ -21,6 +25,13 @@ public class LoginPage {
 
     @FindBy(id="inputPassword")
     public WebElement userPassword;
+
+
+    @FindBy(id = "navbarDropdown")
+    public WebElement userButton;
+
+    @FindBy(xpath= "//a[@class='dropdown-item']")
+    public WebElement logoutButton;
 
 
 
@@ -41,5 +52,6 @@ public class LoginPage {
         LoginPage loginPage = new LoginPage();
         loginPage.login(username, password);
     }
+
 
 }
