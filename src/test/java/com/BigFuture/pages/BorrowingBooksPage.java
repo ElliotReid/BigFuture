@@ -1,4 +1,4 @@
 package com.BigFuture.pages;
 
-public class BorrowingBooksPage {
+public class BorrowingBooksPage extends BasePage {
 }

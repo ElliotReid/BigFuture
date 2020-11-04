@@ -1,4 +1,4 @@
 package com.BigFuture.pages;
 
-public class DashboardPage {
+public class DashboardPage extends BasePage{
 }
