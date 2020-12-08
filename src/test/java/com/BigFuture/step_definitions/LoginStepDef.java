@@ -7,7 +7,10 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
 public class LoginStepDef {
-    LoginPage loginPage = new LoginPage();
+    private final LoginPage loginPage;
+    public LoginStepDef(LoginPage loginPage){
+        this.loginPage=loginPage;
+    }
 
     @Given("the user is logged in as {string}")
     public void theUserIsLoggedInAs(String userType) {

@@ -2,17 +2,17 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "name": "As a librarian, I should be able to see book records on user page",
   "description": "",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@smaoke"
+    }
+  ]
 });
 formatter.scenarioOutline({
   "name": "Book Records Page",
   "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@EUG5-170"
-    }
-  ]
+  "keyword": "Scenario Outline"
 });
 formatter.step({
   "name": "the user is logged in as \"Librarian\"",
@@ -79,7 +79,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@EUG5-170"
+      "name": "@smaoke"
     }
   ]
 });
@@ -125,145 +125,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@EUG5-170"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user is logged in as \"Librarian\"",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "com.BigFuture.step_definitions.LoginStepDef.theUserIsLoggedInAs(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user navigates to \"Books\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.BigFuture.step_definitions.BooksStepDef.theUserNavigatesTo(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user should see Show records for \"10\" options",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.BigFuture.step_definitions.BooksStepDef.theUserShouldSeeShowRecordsForOptions(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Book Records Page",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@EUG5-170"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user is logged in as \"Librarian\"",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "com.BigFuture.step_definitions.LoginStepDef.theUserIsLoggedInAs(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user navigates to \"Books\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.BigFuture.step_definitions.BooksStepDef.theUserNavigatesTo(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user should see Show records for \"15\" options",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.BigFuture.step_definitions.BooksStepDef.theUserShouldSeeShowRecordsForOptions(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Book Records Page",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@EUG5-170"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user is logged in as \"Librarian\"",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "com.BigFuture.step_definitions.LoginStepDef.theUserIsLoggedInAs(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user navigates to \"Books\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.BigFuture.step_definitions.BooksStepDef.theUserNavigatesTo(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user should see Show records for \"50\" options",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.BigFuture.step_definitions.BooksStepDef.theUserShouldSeeShowRecordsForOptions(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Book Records Page",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@EUG5-170"
+      "name": "@smaoke"
     }
   ]
 });

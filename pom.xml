@@ -39,6 +39,14 @@
             <version>5.7.0</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>5.7.0</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -48,12 +56,14 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
                 <configuration>
+                    <threadCount>1</threadCount>
+                    <perCoreThreadCount>false</perCoreThreadCount>
+                    <parallel>classes</parallel>
+                    <includes>
+                        <include>**/*CukesRunner*.java</include>
+                    </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                     <runOrder>Alphabetical</runOrder>
-                    <includes>
-                        <include>**/*CukesRunner.java</include>
-                        <include>**/*FailedTestRunner.java</include>
-                    </includes>
                 </configuration>
             </plugin>
             <plugin>
