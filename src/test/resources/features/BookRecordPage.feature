@@ -1,4 +1,4 @@
-@smaoke
+
 Feature:  As a librarian, I should be able to see book records on user page
 	Scenario Outline: Book Records Page
 		  Given the user is logged in as "Librarian"
