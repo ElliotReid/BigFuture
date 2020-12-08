@@ -14,7 +14,7 @@ Feature:  As a librarian, I should be able to see book records on user page
 		    | 100   |
 		    | 200   |
 		    | 500   |
-	@EUG5-169
+	@EUG5-169 @smoke
 	Scenario: Book Records Page default
 		Given the user is logged in as "Librarian"
 		Then the user navigates to "Books"

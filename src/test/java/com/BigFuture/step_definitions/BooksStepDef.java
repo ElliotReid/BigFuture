@@ -37,4 +37,8 @@ public class BooksStepDef {
         List<String>list = BrowserUtils.getElementsText(select.getOptions());
         Assert.assertTrue(list.contains(option));
     }
+
+    @Then("the user should able to see following columns")
+    public void theUserShouldAbleToSeeFollowingColumns() {
+    }
 }

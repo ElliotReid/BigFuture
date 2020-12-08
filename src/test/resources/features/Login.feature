@@ -1,13 +1,14 @@
+@smoke
 Feature: Login Functionality
 
   Scenario Outline: User Login Functionality
-    When the user login as a <role>
-    Then the user is on the <page>
+   Given the user is logged in as "<role>"
+    Then the user navigates to "<page>"
 
     Examples:
       | role        | page      |
-      | student11   | books     |
-      | librarian13 | Dashboard |
+      | Student   | books     |
+      | librarian | Dashboard |
 
 
   Scenario: Student already Logged in
